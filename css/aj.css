@@ -1,0 +1,146 @@
+body {
+-x-system-font:none;
+font-family:verdana,arial,helvetica,sans-serif;
+font-size:11px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+margin:0;
+padding:0;
+}
+#header {
+	margin:0 auto 0;
+	padding:0;
+	width:900px;
+	vertical-align: bottom;
+	border-bottom: 1px solid #777788;
+}
+#navlist {
+	font-size:9px;
+	margin-left:0px;
+	padding:0px 0;
+}
+#navlist li {
+display:inline;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+}
+#navlist li a {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+	background:#DDDDEE none repeat scroll 0 0;
+	border-color:#777788 #777788 -moz-use-text-color;
+	border-style:solid solid none;
+	border-width:1px 1px medium;
+	margin-left:3px;
+	padding:10px 0.5em;
+	text-decoration:none;
+}
+#navlist li a:link {
+color:#444488;
+}
+#navlist li a:visited {
+color:#666677;
+}
+#navlist li a:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#AAAAEE none repeat scroll 0 0;
+border-color:#222277;
+color:#000000;
+}
+#navlist li a#current {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:white none repeat scroll 0 0;
+border-bottom:1px solid white;
+color:#000000;
+font-size:150%;
+}
+.auth_cell_head {
+	border: thin solid #313131;
+}
+.grey_text {
+	color: #999999;
+}
+#adminheader {
+
+margin:0 auto;
+padding:0;
+width:900px;
+}
+#navlistb {
+
+	font-size:9px;
+	margin-left:0px;
+	padding:3px 0;
+}
+#navlistb li {
+
+display:inline;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+}
+#navlistb li a {
+
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+	background:#DDDDEE none repeat scroll 0 0;
+	border-color:#777788 #777788 -moz-use-text-color;
+	border-style:none solid solid;
+	border-width:1px 1px 1px;
+	margin-left:3px;
+	padding:10px 0.5em;
+	text-decoration:none;
+}
+#navlistb li a:link {
+
+color:#444488;
+}
+#navlistb li a:visited {
+
+color:#666677;
+}
+#navlistb li a:hover {
+
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#AAAAEE none repeat scroll 0 0;
+border-color:#222277;
+color:#000000;
+}
+#navlistb li a#current {
+
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:white none repeat scroll 0 0;
+color:#000000;
+font-size:150%;
+}
+#navcontainer {
+	margin: 0px;
+	padding: 0px;
+}
+#navlist li a#bad {
+
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:red none repeat scroll 0 0;
+border-bottom:1px solid white;
+color:#000000;
+font-size:100%;
+}
